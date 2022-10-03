@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import TodoFeature from './features/Todo';
 
 function App() {
   const name = 'nhinh'
@@ -53,6 +54,10 @@ function App() {
             <li key={color}>{color}</li>
           ))}
         </ul>
+
+         <TodoFeature/>   
+
+
       </header>
     </div>
   );
